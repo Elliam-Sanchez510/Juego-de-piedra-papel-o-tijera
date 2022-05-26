@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/script.js"> </script>
+  </head>
+  <body class="fondo">
+      <center><h2 class="texto">Piedra Papel o Tijera</h2></center>
+      <center>
+        <table>
+          <tr>
+            <td>
+              <span class="compu">COMPUTADORA: </span>
+              <div>
+                <input type="text" name="jugada_computadora" disabled id="jugadaComputadora">
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <span class="compu">USUARIO:</span>
+              <div>
+                <input type="text" name="jugada del Usuario" id="jugadaUsuario">
+              </div>
+          </tr>
+
+          <tr>
+            <td>
+              <span class="compu">RESULTADO:</span>
+              <div>
+                <input type="text" name="resultado" disabled id="resultado">
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input class="boton" type="button" name="jugar" value="Jugar" onclick="evaluarJuego()">
+              <input class="boton" type="button" name="volverAJugar" value="Volver a Jugar" onclick="volverAJugar()">
+            </td>
+          </tr>
+        </table>
+
+      </center>
+      
+
+  </body>
+</html>

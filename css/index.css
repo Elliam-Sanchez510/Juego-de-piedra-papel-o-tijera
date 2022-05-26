@@ -1,0 +1,17 @@
+.fondo {
+  background-image: url("/imagen.jpg");
+}
+.compu {
+  background: yellow;
+  border-radius: 45px;
+  font-size: 20px;font-weight:bold;
+}
+.texto {
+  text-decoration: underline;
+}
+.boton {
+  background: green;
+  border-color: rgb(19, 90, 221);
+  border-radius: 8px;
+  border-width: 5px;
+}
